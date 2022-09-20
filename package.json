@@ -1,0 +1,27 @@
+{
+  "name": "iftos",
+  "version": "0.0.1",
+  "description": "Imaginations from the Other Side studio",
+  "main": "index.js",
+  "dependencies": {
+    "easy-keyvalues": "^1.0.12",
+    "parse-kv": "^0.3.1",
+    "semistandard": "^16.0.1",
+    "valve-kv": "^1.2.1",
+    "vdf-parser": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkoniusXNG/iftos.git"
+  },
+  "author": "Darko V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkoniusXNG/iftos/issues"
+  },
+  "homepage": "https://github.com/DarkoniusXNG/iftos#readme"
+}
