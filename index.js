@@ -5,7 +5,7 @@ const valveKV = require('valve-kv');
 
 function dotaAbilities (cb) {
   request.get({
-    url: 'https://raw.githubusercontent.com/arcadia-redux/dota_vpk_updates/main/scripts/npc/npc_abilities.txt'
+    url: 'https://raw.githubusercontent.com/spirit-bear-productions/dota_vpk_updates/main/scripts/npc/npc_abilities.txt'
   }, function (err, result) {
     if (err) {
       return cb(err);
@@ -25,7 +25,7 @@ function dotaAbilities (cb) {
 
 function dotaItems (cb) {
   request.get({
-    url: 'https://raw.githubusercontent.com/arcadia-redux/dota_vpk_updates/main/scripts/npc/items.txt'
+    url: 'https://raw.githubusercontent.com/spirit-bear-productions/dota_vpk_updates/main/scripts/npc/items.txt'
   }, function (err, result) {
     if (err) {
       return cb(err);
@@ -42,7 +42,7 @@ function dotaItems (cb) {
 
 function dotaHeroes (cb) {
   request.get({
-    url: 'https://raw.githubusercontent.com/arcadia-redux/dota_vpk_updates/main/scripts/npc/npc_heroes.txt'
+    url: 'https://raw.githubusercontent.com/spirit-bear-productions/dota_vpk_updates/main/scripts/npc/npc_heroes.txt'
   }, function (err, result) {
     if (err) {
       return cb(err);
@@ -57,7 +57,7 @@ function dotaHeroes (cb) {
 
 function abilityTooltipsEnglish (cb) {
   request.get({
-    url: 'https://raw.githubusercontent.com/arcadia-redux/dota_vpk_updates/main/resource/localization/abilities_english.txt'
+    url: 'https://raw.githubusercontent.com/spirit-bear-productions/dota_vpk_updates/main/resource/localization/abilities_english.txt'
   }, function (err, result) {
     if (err) {
       return cb(err);
@@ -72,7 +72,7 @@ function abilityTooltipsEnglish (cb) {
 
 function dotaTooltipsEnglish (cb) {
   request.get({
-    url: 'https://raw.githubusercontent.com/arcadia-redux/dota_vpk_updates/main/resource/localization/dota_english.txt'
+    url: 'https://raw.githubusercontent.com/spirit-bear-productions/dota_vpk_updates/main/resource/localization/dota_english.txt'
   }, function (err, result) {
     if (err) {
       return cb(err);
