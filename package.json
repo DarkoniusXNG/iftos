@@ -5,13 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "easy-keyvalues": "^1.2.3",
+    "json-server": "^1.0.0-beta.0",
     "parse-kv": "^0.3.1",
     "request": "^2.88.2",
     "semistandard": "^16.0.1",
     "valve-kv": "^1.2.1",
     "vdf-parser": "^1.2.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "test.js"
   },
