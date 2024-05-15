@@ -1,12 +1,14 @@
 {
 	"saveOptions": [
 		{
+			"data": "",
 			"steamID": 0,
 			"content": ""
 		}
 	],
 	"loadOptions": [
 		{
+			"data": "",
 			"steamID": 0,
 			"content": ""
 		}
