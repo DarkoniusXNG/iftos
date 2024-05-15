@@ -1,8 +1,14 @@
 {
-	"UserSettings": [
+	"saveOptions": [
 		{
-			"SteamId": 0,
-			"SettingsContent": ""
+			"steamID": 0,
+			"content": ""
+		}
+	],
+	"loadOptions": [
+		{
+			"steamID": 0,
+			"content": ""
 		}
 	]
 }
